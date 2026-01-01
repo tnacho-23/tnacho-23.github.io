@@ -1,0 +1,9 @@
+title: Tu Nombre
+email: tu_email@ejemplo.com
+description: "Ingeniería, Deporte y Lifestyle"
+baseurl: ""
+url: "http://localhost:4000"
+# theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

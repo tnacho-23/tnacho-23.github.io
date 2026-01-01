@@ -1,0 +1,156 @@
+:root {
+  --primary-blue: #5D9CEC;       /* Azul claro vibrante */
+  --soft-blue: #EDF2F7;          /* Azul muy pálido para fondos */
+  --text-dark: #2D3748;          /* Gris oscuro para texto */
+  --text-gray: #718096;          /* Gris medio para subtítulos */
+  --bg-gray: #F7FAFC;            /* Fondo general */
+  --white: #FFFFFF;
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --radius: 12px;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-gray);
+  color: var(--text-dark);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header Flotante */
+header {
+  background-color: var(--white);
+  box-shadow: var(--shadow);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header nav {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--text-gray);
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: var(--primary-blue);
+}
+
+/* Contenedor Principal */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Estilo de Tarjetas para contenido (No plano) */
+.card {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Sub-navegación (Pestañas Main/Blog) */
+.sub-nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid var(--soft-blue);
+  padding-bottom: 0.5rem;
+}
+
+.sub-nav a {
+  text-decoration: none;
+  color: var(--text-gray);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.sub-nav a.active {
+  background-color: var(--soft-blue);
+  color: var(--primary-blue);
+  font-weight: bold;
+}
+
+.sub-nav a:hover:not(.active) {
+  background-color: #f0f0f0;
+}
+
+/* Botones */
+.btn {
+  display: inline-block;
+  background-color: var(--primary-blue);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border-radius: 50px;
+  box-shadow: 0 2px 5px rgba(93, 156, 236, 0.4);
+  transition: transform 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+h1 { color: var(--text-dark); }
+h2 { color: var(--primary-blue); font-size: 1.5rem; }
+
+/* --- Carrusel Mejorado (Soporte Vertical/Horizontal) --- */
+.carousel-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-radius: var(--radius);
+  scrollbar-width: none; /* Ocultar scrollbar Firefox */
+}
+
+.carousel-container::-webkit-scrollbar {
+  display: none; /* Ocultar scrollbar Chrome/Safari */
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+  /* Aumentamos la altura para dar aire a las fotos verticales */
+  height: 550px; 
+  scroll-snap-align: center;
+  
+  /* Flexbox para centrar la imagen perfectamente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* Fondo suave para rellenar los huecos de fotos verticales */
+  background-color: #f8fafc; 
+  border-radius: var(--radius);
+}
+
+.carousel-item img {
+  /* Estas reglas aseguran que NUNCA se deforme ni se corte */
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  
+  object-fit: contain; /* Muestra la imagen entera */
+  border-radius: 8px;
+  
+  /* Sombra más pronunciada para que la foto "flote" sobre el fondo */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
