@@ -7,7 +7,7 @@ permalink: /journal/
 
 Hace algunos años comencé a escribir cositas de manera periódica en el blog de ucursos. En verdad, escribía puras tonteras: memes de buenos días, algún pensamiento x, cuando salía de vacaciones, cuando me eché dinámicos, etc. Ni idea qué va a pasar con esas cosas cuando salga de la U, sería bonito que quedaran ahí para siempre pero a lo mejor es momento de migrar a algo más "estable".
 
-Así nació esta págin. Me acuerdo de chiquitito que me metía a los generadores webs personales, les ponía mi nombre y una foto (inacho.superweb.cl debe seguir por ahí). Con esta página quiero ir escribiendo cositas en el journal ojalá por harto tiempo y aparte aprovecharla como portafolio laboral y de metas deportivas. Veremos qué resulta :).
+Así nació esta página. Me acuerdo de chiquitito que me metía a los generadores webs personales, les ponía mi nombre y una foto (inacho.superweb.cl debe seguir por ahí). Con esta página quiero ir escribiendo cositas en el journal ojalá por harto tiempo y aparte aprovecharla como portafolio laboral y de metas deportivas. Veremos qué resulta :).
 
 ~ Nacho
 
