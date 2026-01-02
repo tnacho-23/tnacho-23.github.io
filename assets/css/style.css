@@ -18,11 +18,11 @@ body {
   line-height: 1.6;
 }
 
-/* Header Flotante */
+/* Header Flotante (Responsive) */
 header {
   background-color: var(--white);
   box-shadow: var(--shadow);
-  padding: 1rem 0;
+  padding: 0.8rem 0; /* Un poco menos de padding vertical */
   position: sticky;
   top: 0;
   z-index: 100;
@@ -33,7 +33,10 @@ header nav {
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 2rem;
+  /* IMPORTANTE: Esto permite que los botones bajen si no caben */
+  flex-wrap: wrap; 
 }
 
 header nav a {
@@ -42,10 +45,26 @@ header nav a {
   font-weight: 600;
   font-size: 1.1rem;
   transition: color 0.3s;
+  white-space: nowrap; /* Evita que el texto del botón se parta */
 }
 
 header nav a:hover {
   color: var(--primary-blue);
+}
+
+/* --- Ajustes específicos para Celular --- */
+@media (max-width: 600px) {
+  header nav {
+    gap: 0.8rem; /* Menos espacio entre botones */
+    padding: 0 10px;
+  }
+  
+  header nav a {
+    font-size: 0.95rem; /* Letra un poco más chica */
+    padding: 0.3rem 0.6rem;
+    background-color: var(--soft-blue); /* Fondo suave para que parezcan botones táctiles */
+    border-radius: 8px;
+  }
 }
 
 /* Contenedor Principal */

@@ -8,7 +8,7 @@ docker build -t my-jekyll-site .
 
 - Run on local host
 ```
-docker run --rm -p 4000:4000 -v D:/my_files/my_webpage/tnacho-23.github.io:/home/app my-jekyll-site
+docker run --rm -v "$PWD:/home/app" -p 4000:4000 jekyll-site
 ```
 
 - Access local host
