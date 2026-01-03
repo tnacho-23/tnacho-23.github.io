@@ -13,8 +13,6 @@ title: Home
         Tengo un fuerte interés en la robótica, la inteligencia artificial y el desarrollo tecnológico con impacto social. Me motiva participar en proyectos donde se apliquen conocimientos a desafíos reales mediante la innovación. Además, me interesa contribuir activamente al desarrollo de la comunidad universitaria y fomentar la vocación por la ingeniería.
 
         He participado en equipos de investigación académica enfocados en robótica y visión artificial, así como en organizaciones estudiantiles orientadas al acompañamiento y orientación académica. He liderado iniciativas de apoyo a la comunidad universitaria y colaborado en eventos de difusión científica. Complemento mi formación con la práctica deportiva, entrenando para competir en triatlón de manera amateur, lo que refuerza mi disciplina, constancia y compromiso.
-
-        (Página en construcción aún)
     </p>
   </div>
 
