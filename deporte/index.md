@@ -3,9 +3,29 @@ layout: section_main
 title: Deporte
 permalink: /deporte/
 ---
-**Mi vida deportiva**
+### Mis redes
 
-Race Reports, Records y más :p
+<hr style="margin: 2rem 0; border: 0; border-top: 1px solid #eee;">
+
+<div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;">
+  
+  <a href="https://www.instagram.com/tionacho_23" target="_blank" class="btn-social" style="background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">
+    <i class="fab fa-instagram"></i> Instagram
+  </a>
+
+  <a href="https://www.tiktok.com/@tionacho_23" target="_blank" class="btn-social" style="background-color: #000000; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">
+    <i class="fab fa-tiktok"></i> TikTok
+  </a>
+
+  <a href="https://strava.app.link/6cLv1650ITb" target="_blank" class="btn-social" style="background-color: #FC4C02; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">
+    <i class="fab fa-strava"></i> Strava
+  </a>
+
+  <a href="mailto:ignacio.romero.a@outlook.cl" class="btn-social" style="background-color: #718096; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">
+    <i class="fas fa-envelope"></i> Contacto
+  </a>
+  </div>
+
 
 ### Vitrina de Records
 
