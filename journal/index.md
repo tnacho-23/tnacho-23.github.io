@@ -3,15 +3,18 @@ layout: section_main
 title: Journal
 permalink: /journal/
 ---
-**Journal**
 
-Hace algunos años comencé a escribir cositas de manera periódica en el blog de ucursos. En verdad, escribía puras tonteras: memes de buenos días, algún pensamiento x, cuando salía de vacaciones, cuando me eché dinámicos, etc. Ni idea qué va a pasar con esas cosas cuando salga de la U, sería bonito que quedaran ahí para siempre pero a lo mejor es momento de migrar a algo más "estable".
+<div style="text-align: justify;">
 
-Así nació esta página. Me acuerdo de chiquitito que me metía a los generadores webs personales, les ponía mi nombre y una foto (inacho.superweb.cl debe seguir por ahí). Con esta página quiero ir escribiendo cositas en el journal ojalá por harto tiempo y aparte aprovecharla como portafolio laboral y de metas deportivas. Veremos qué resulta :).
+<b> Journal </b>
 
-~ Nacho
+<p> Hace algunos años comencé a escribir cositas de manera periódica en el blog de ucursos. En verdad, escribía puras tonteras: memes de buenos días, algún pensamiento x, cuando salía de vacaciones, cuando me eché dinámicos, etc. Ni idea qué va a pasar con esas cosas cuando salga de la U, sería bonito que quedaran ahí para siempre pero a lo mejor es momento de migrar a algo más "estable". </p>
 
-PD: Les dejo algunas de mis entradas más icónicas en el blog de ucursos!
+<p> Así nació esta página. Me acuerdo de chiquitito que me metía a los generadores webs personales, les ponía mi nombre y una foto (inacho.superweb.cl debe seguir por ahí). Con esta página quiero ir escribiendo cositas en el journal ojalá por harto tiempo y aparte aprovecharla como portafolio laboral y de metas deportivas. Veremos qué resulta :). </p>
+
+<p> ~ Nacho </p>
+
+<p> PD: Les dejo algunas de mis entradas más icónicas en el blog de ucursos! </p>
 
 
   <div class="carousel-container">
